@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.calculator {
+    width: 350px;
+    height: 318px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    padding: 10px;
+    text-align: right;
+    background-color: #f2f2f2;
+}
+
+.display input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button.operator {
+    background-color: #f2f2f2;
+}
+
+button.equal {
+    background-color: #4CAF50;
+    color: #fff;
+}
